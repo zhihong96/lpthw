@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+
+# assign variable
+people = 80
+cars = 20 
+buses = 20
+
+if cars > people:
+    print "We should take the cars."
+elif cars < people:
+    print "We should not take the card."
+else:
+    print "We can't decide."
+
+if buses > cars:
+    print "That's too many buses."
+elif buses < cars:
+    print "Maybe we could take the buses."
+elif buses == cars:
+    print "buses equal cars."
+else:
+    print "We still can't decide."
+
+if people > buses:
+   print "Alright, let's just take the buses."
+else:
+    print"Fine,let's stay home then."
